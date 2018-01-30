@@ -10,4 +10,4 @@ rvm:
 script:
   - bundle exec rake
   - bundle exec rake build format_json && git status -s && [[ -z $(git status -s) ]]
-  - for f in `find . -name '*.json'`; do diff -q $f <(jq "." $f); done
+  - for f in `git ls-files *.json`; do diff -q $f <(jq "." $f); done
