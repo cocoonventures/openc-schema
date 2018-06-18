@@ -1,0 +1,8 @@
+{
+  "registration_type": "foo",
+  "related_entity": {
+    "company_number": "AB1234",
+    "jurisdiction_code": "de"
+  },
+  "end_date": "2012-01-22"
+}

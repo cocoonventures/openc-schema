@@ -132,6 +132,12 @@
         "$ref": "includes/alternative-name.json"
       }
     },
+    "related_registrations": {
+      "type": "array",
+      "items": {
+        "$ref": "includes/related-registration.json"
+      }
+    },
     "branch": {
       "type": [
         "string",
